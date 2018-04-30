@@ -1,8 +1,8 @@
 # Basic
 title: lanxu
-subtitle: A blog-orientation theme for Jekyll
+subtitle: A blog to write something.
 welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
+description: Work hard ,play hard.
 creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://vno.onevcat.com"
@@ -38,10 +38,10 @@ comment:
 # Social
 social:
     weibo: onevcat
-    github: onevcat
+    github: Rubick1
     twitter: onevcat
     gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    mail: ishiguang@gmail.com
 
 # Google Analytics
 ga:
