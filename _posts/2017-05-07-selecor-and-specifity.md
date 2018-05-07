@@ -39,7 +39,7 @@
   * :target
     * 当网址后面有#id时候，这个id元素就是对应target
   * :lang
-    * :lang(en)类似于[lang|="en"]选择器，但是这个比属性选择器更强大，因为它不仅可以匹配属性，还可以通过别的信息判断出相应的样式应该应用在哪里，
+    * especially for language specifity
   * :not
     * :not(),括号中只能填入一个选择器，不能填多个选择器的组合，例如 p a不行，但是p可以,pseudo-element也不能包在括号中
 
