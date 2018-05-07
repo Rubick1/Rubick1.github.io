@@ -3,7 +3,7 @@
   * style标签，
   * 外部样式表
 
-选择器
+* 选择器
 * 类选择器 .apple 
 * id选择器 #apple
 * combinator
@@ -15,13 +15,14 @@
   * div ~ p 
     * 选中div后面所有的兄弟元素p
 * 属性选择器 css selector
-  * [attr="foo"]{} 属性值为foo
-  * [attr^="foo"]{} 属性值开头为foo
-  * [attr$="foo"]{} 属性值结尾为foo 
-  * [attr\*="foo"]{} 属性值中出现foo
-  * [attr]{} 属性存在
-  * [attr~="foo"]{} 有一个属性值为foo
-  * [attr|="foo"]{}属性值为foo或者属性值以foo-开头
+  * \[attr="foo"]{} 属性值为foo
+  * \[attr^="foo"]{} 属性值开头为foo
+  * \[attr$="foo"]{} 属性值结尾为foo 
+  * \[attr\*="foo"]{} 属性值中出现foo
+  * \[attr]{} 属性存在
+  * \[attr~="foo"]{} 有一个属性值为foo
+  * \[attr|="foo"]{}
+     属性值为foo或者属性值以foo-开头
 
 * 伪类选择器 
   * 结构伪类
@@ -38,7 +39,7 @@
   * :target
     * 当网址后面有#id时候，这个id元素就是对应target
   * :lang
-    * :lang(cn)类似于lang|="cn"],但是这个伪类比属性选择器更强大，因为它不仅可以匹配属性，还可以通过别的信息判断出相应的样式应该应用在哪里，especially for language-specific styling
+    * :lang\(cn)类似于\[lang|="cn"],但是这个伪类比属性选择器更强大，因为它不仅可以匹配属性，还可以通过别的信息判断出相应的样式应该应用在哪里，especially for language-specific styling
   * :not
     * :not(),括号中只能填入一个选择器，不能填多个选择器的组合，例如 p a 不行，但是p可以,pseudo-element？？也不能包在括号中
 
@@ -104,12 +105,8 @@
   * 时间
     * s  ms
 
-7.10.12章 重点
-table的结构再研究一下，thead,tr?th?td?
-  
 
-作业疑问？🤔️，为什么筛选是2n+4,3n+9,5n+25,7n+49,
-我的答案是2n+4,3n+6,5n+10,7n+14,对吗？(好像也能达成最终的效果)🤔️😄🤮
+
 
 
 
