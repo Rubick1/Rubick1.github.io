@@ -21,7 +21,7 @@
   * \[attr\*="foo"]{} 属性值中出现foo
   * \[attr]{} 属性存在
   * \[attr~="foo"]{} 有一个属性值为foo
-  * \[attr|="foo"]{}
+  * \[attr\|="foo"]{}
      属性值为foo或者属性值以foo-开头
 
 * 伪类选择器 
@@ -39,7 +39,7 @@
   * :target
     * 当网址后面有#id时候，这个id元素就是对应target
   * :lang
-    * :lang\(cn)类似于\[lang|="cn"],但是这个伪类比属性选择器更强大，因为它不仅可以匹配属性，还可以通过别的信息判断出相应的样式应该应用在哪里，especially for language-specific styling
+    * 类似于\[lang|="cn"],但是这个伪类比属性选择器更强大，因为它不仅可以匹配属性，还可以通过别的信息判断出相应的样式应该应用在哪里，especially for language-specific styling
   * :not
     * :not(),括号中只能填入一个选择器，不能填多个选择器的组合，例如 p a 不行，但是p可以,pseudo-element？？也不能包在括号中
 
@@ -49,12 +49,6 @@
   * ::first-line
   * ::before,::after, 例如h2::before{content: "]]";color:silver;},在一个元素前面或者后面插入一些内容，同时设置这些内容的样式
  
-* li:nth-child() ,
-  * 括号里只能用xn(+-)x这种形式，选择父元素的第几个子元素,注意这些元素的标签可能不同
-  * 注意nth-child要紧贴着冒号
-* li:only-of-child
-* li:only-of-type
-
 
 * 选择器的优先级
   比较方法
